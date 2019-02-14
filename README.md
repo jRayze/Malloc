@@ -1,11 +1,10 @@
 # Malloc
 
 Implementation of Malloc function in C
-
+---------------------
 Script launch :
-
+---------------------
 $> : export HOSTTYPE=mymalloc
-
 ---------------------
 Standard launch :
 $> : make
@@ -17,11 +16,12 @@ $> : make debug
 $> : ./run.sh ./yourbinary
 
 ALLOCATION TYPES DEFINE :
-
+---------------------
   TINY : 128
   SMALL : 4096
 
-You can use in your code multiple function :
+You can use multiple function in your code :
+---------------------------------------------------------------
 
 - (void *pointer)malloc(size_t octet);                  // allocate dynamic memory
 - (void *pointer)realloc(void *ptr, size_t octet);      // allocate new dynamic memory with 
