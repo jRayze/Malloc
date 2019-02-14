@@ -6,10 +6,12 @@ Implementation of Malloc function in C
 
 $> : export HOSTTYPE=mymalloc
 
-Standard launch :\n
+Standard launch :
+
 $> : make
 
 Debug mode launch :
+
 $> : make debug
 
 
