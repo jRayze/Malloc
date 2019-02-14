@@ -55,7 +55,8 @@ t_meta	*metadip(t_metapool *metapool, void *addr, size_t size)
 	}
 	pool = metapool;
 	elem = pool->pool;
-	elem->next->prev = NULL;
+	if (elem->next)
+		elem->next->prev = NULL;
 	pool->pool = elem->next;
 	elem->addr = addr;
 	elem->size = size;
