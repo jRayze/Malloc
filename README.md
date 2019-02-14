@@ -6,7 +6,7 @@ Implementation of Malloc function in C
 
 $> : export HOSTTYPE=mymalloc
 
-Standard launch :
+Standard launch :\n
 $> : make
 
 Debug mode launch :
@@ -16,8 +16,9 @@ $> : make debug
 $> : ./run.sh ./yourbinary
 
 # ALLOCATION TYPES DEFINE :
----------------------
+
   TINY : 128
+  
   SMALL : 4096
 
 # You can use multiple function in your code :
